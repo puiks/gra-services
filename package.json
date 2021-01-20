@@ -1,0 +1,26 @@
+{
+  "name": "services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puiks/gra-services.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puiks/gra-services/issues"
+  },
+  "homepage": "https://github.com/puiks/gra-services#readme",
+  "dependencies": {
+    "egg": "^2.29.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.15.0"
+  }
+}

@@ -1,0 +1,45 @@
+2021-01-20 15:59:47,418 ERROR 23932 [-/127.0.0.1/-/5ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\code_file\毕设\services\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\code_file\毕设\services\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\code_file\毕设\services\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\code_file\毕设\services\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\code_file\毕设\services\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\code_file\毕设\services\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\code_file\毕设\services\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\code_file\毕设\services\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 23932
+hostname: LAPTOP-NGODR02R
+
+2021-01-20 15:59:48,318 ERROR 23932 [-/127.0.0.1/-/30ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\code_file\毕设\services\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\code_file\毕设\services\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\code_file\毕设\services\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\code_file\毕设\services\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\code_file\毕设\services\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\code_file\毕设\services\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\code_file\毕设\services\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\code_file\毕设\services\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 23932
+hostname: LAPTOP-NGODR02R
+
+2021-01-20 16:02:52,506 ERROR 10096 [-/127.0.0.1/-/8ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\code_file\毕设\services\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\code_file\毕设\services\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\code_file\毕设\services\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\code_file\毕设\services\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\code_file\毕设\services\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\code_file\毕设\services\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\code_file\毕设\services\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\code_file\毕设\services\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 10096
+hostname: LAPTOP-NGODR02R
+
