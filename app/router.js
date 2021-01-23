@@ -1,4 +1,5 @@
 module.exports = (app) => {
-    require('./router/admin.js')(app)
-    require('./router/default.js')(app)
+    require('./router/admin')(app)
+    require('./router/default')(app)
+    require('./router/common')(app)
 }

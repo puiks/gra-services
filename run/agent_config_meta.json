@@ -1,27 +1,26 @@
 {
   "keys": "D:\\code_file\\毕设\\services\\config\\config.default.js",
-  "session": {
-    "maxAge": "D:\\code_file\\毕设\\services\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "D:\\code_file\\毕设\\services\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "D:\\code_file\\毕设\\services\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "D:\\code_file\\毕设\\services\\node_modules\\egg-session\\config\\config.default.js"
+  "mysql": {
+    "client": {
+      "host": "D:\\code_file\\毕设\\services\\config\\config.default.js",
+      "port": "D:\\code_file\\毕设\\services\\config\\config.default.js",
+      "user": "D:\\code_file\\毕设\\services\\config\\config.default.js",
+      "password": "D:\\code_file\\毕设\\services\\config\\config.default.js",
+      "database": "D:\\code_file\\毕设\\services\\config\\config.default.js",
+      "dateStrings": "D:\\code_file\\毕设\\services\\config\\config.default.js"
+    },
+    "default": {
+      "database": "D:\\code_file\\毕设\\services\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "D:\\code_file\\毕设\\services\\node_modules\\egg-mysql\\config\\config.default.js"
+    },
+    "app": "D:\\code_file\\毕设\\services\\node_modules\\egg-mysql\\config\\config.default.js",
+    "agent": "D:\\code_file\\毕设\\services\\node_modules\\egg-mysql\\config\\config.default.js"
   },
   "security": {
+    "csrf": "D:\\code_file\\毕设\\services\\config\\config.default.js",
     "domainWhiteList": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
     "protocolWhiteList": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
     "defaultMiddleware": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
-    "csrf": {
-      "enable": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
-      "type": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
-      "refererWhiteList": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js"
-    },
     "xframe": {
       "enable": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
       "value": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js"
@@ -59,6 +58,12 @@
       "ipBlackList": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
       "checkAddress": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js"
     }
+  },
+  "session": {
+    "maxAge": "D:\\code_file\\毕设\\services\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\code_file\\毕设\\services\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\code_file\\毕设\\services\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\code_file\\毕设\\services\\node_modules\\egg-session\\config\\config.default.js"
   },
   "helper": {
     "shtml": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js"
@@ -174,7 +179,8 @@
     },
     "homepage": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-      "egg": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js"
+      "egg": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
       "egg-bin": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js"

@@ -43,3 +43,154 @@ hostname: LAPTOP-NGODR02R
 pid: 10096
 hostname: LAPTOP-NGODR02R
 
+2021-01-23 14:20:29,734 ERROR 320 [-/127.0.0.1/-/57ms GET /admin/index] nodejs.TypeError: this.ctx.service.admin.home.find is not a function
+    at AdminController.index (D:\code_file\毕设\services\app\controller\admin\home.js:5:50)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\code_file\毕设\services\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+
+pid: 320
+hostname: LAPTOP-NGODR02R
+
+2021-01-23 14:22:49,350 ERROR 3000 [-/127.0.0.1/-/7ms GET /admin/index] nodejs.TypeError: ctx.service.admin.home.find is not a function
+    at AdminController.index (D:\code_file\毕设\services\app\controller\admin\home.js:6:51)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\code_file\毕设\services\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+
+pid: 3000
+hostname: LAPTOP-NGODR02R
+
+2021-01-23 14:24:04,485 ERROR 2168 [-/127.0.0.1/-/8ms GET /admin/index] nodejs.TypeError: ctx.service.user.find is not a function
+    at AdminController.index (D:\code_file\毕设\services\app\controller\admin\home.js:6:45)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\code_file\毕设\services\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+
+pid: 2168
+hostname: LAPTOP-NGODR02R
+
+2021-01-23 14:25:15,662 ERROR 16464 [-/127.0.0.1/-/227ms GET /admin/index] nodejs.TypeError: ctx.service.admin.home.find is not a function
+    at AdminController.index (D:\code_file\毕设\services\app\controller\admin\home.js:7:51)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\code_file\毕设\services\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+
+pid: 16464
+hostname: LAPTOP-NGODR02R
+
+2021-01-23 15:28:40,940 WARN 4976 [-/127.0.0.1/-/93ms POST /register] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-01-23 15:28:40,942 WARN 4976 [-/127.0.0.1/-/95ms POST /register] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (D:\code_file\毕设\services\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\code_file\毕设\services\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\code_file\毕设\services\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\code_file\毕设\services\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\code_file\毕设\services\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\code_file\毕设\services\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\code_file\毕设\services\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 4976
+hostname: LAPTOP-NGODR02R
+
+2021-01-23 16:24:48,449 ERROR 9996 [-/127.0.0.1/-/19ms POST /login] nodejs.TypeError: ctx.service.common.user.login is not a function
+    at UserController.login (D:\code_file\毕设\services\app\controller\common\user.js:17:54)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\code_file\毕设\services\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+
+pid: 9996
+hostname: LAPTOP-NGODR02R
+
+2021-01-23 16:37:35,108 ERROR 11224 [-/127.0.0.1/-/21ms POST /login] nodejs.TypeError: Cannot read property 'length' of null
+    at UserService.login (D:\code_file\毕设\services\app\service\common\user.js:38:23)
+    at UserController.login (D:\code_file\毕设\services\app\controller\common\user.js:24:54)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\code_file\毕设\services\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+
+pid: 11224
+hostname: LAPTOP-NGODR02R
+
+2021-01-23 16:37:53,426 ERROR 11224 [-/127.0.0.1/-/2ms POST /login?loginType=0] nodejs.TypeError: Cannot read property 'length' of null
+    at UserService.login (D:\code_file\毕设\services\app\service\common\user.js:38:23)
+    at UserController.login (D:\code_file\毕设\services\app\controller\common\user.js:24:54)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\code_file\毕设\services\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+
+pid: 11224
+hostname: LAPTOP-NGODR02R
+
+2021-01-23 16:37:57,442 ERROR 11224 [-/127.0.0.1/-/1ms POST /login?loginType=0] nodejs.TypeError: Cannot read property 'length' of null
+    at UserService.login (D:\code_file\毕设\services\app\service\common\user.js:38:23)
+    at UserController.login (D:\code_file\毕设\services\app\controller\common\user.js:24:54)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\code_file\毕设\services\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+
+pid: 11224
+hostname: LAPTOP-NGODR02R
+
+2021-01-23 16:38:07,939 ERROR 11224 [-/127.0.0.1/-/1ms POST /login?loginType=0] nodejs.TypeError: Cannot read property 'length' of null
+    at UserService.login (D:\code_file\毕设\services\app\service\common\user.js:38:23)
+    at UserController.login (D:\code_file\毕设\services\app\controller\common\user.js:24:54)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\code_file\毕设\services\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+
+pid: 11224
+hostname: LAPTOP-NGODR02R
+

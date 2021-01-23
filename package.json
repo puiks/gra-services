@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/puiks/gra-services#readme",
   "dependencies": {
-    "egg": "^2.29.1"
+    "egg": "^2.29.1",
+    "egg-mysql": "^3.0.0"
   },
   "devDependencies": {
     "egg-bin": "^4.15.0"
