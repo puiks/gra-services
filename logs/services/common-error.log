@@ -189,3 +189,38 @@ hostname: LAPTOP-NGODR02R
 pid: 11224
 hostname: LAPTOP-NGODR02R
 
+2021-01-24 20:51:19,102 ERROR 1828 [-/127.0.0.1/-/76ms POST /login?loginType%20=%200] nodejs.TypeError: Cannot read property 'length' of null
+    at UserController.login (D:\code_file\毕设\services\app\controller\common\user.js:34:20)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 1828
+hostname: LAPTOP-NGODR02R
+
+2021-01-24 20:52:14,682 ERROR 18596 [-/127.0.0.1/-/21ms POST /login?loginType%20=%200] nodejs.TypeError: Cannot read property 'length' of null
+    at UserController.login (D:\code_file\毕设\services\app\controller\common\user.js:34:20)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 18596
+hostname: LAPTOP-NGODR02R
+
+2021-01-24 20:54:13,683 ERROR 11848 [-/127.0.0.1/-/19ms POST /login] nodejs.TypeError: Cannot read property 'length' of null
+    at UserController.login (D:\code_file\毕设\services\app\controller\common\user.js:30:20)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 11848
+hostname: LAPTOP-NGODR02R
+
+2021-01-24 20:54:46,301 ERROR 6776 [-/127.0.0.1/-/20ms POST /login] nodejs.TypeError: Cannot read property 'length' of null
+    at UserController.login (D:\code_file\毕设\services\app\controller\common\user.js:31:20)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 6776
+hostname: LAPTOP-NGODR02R
+
+2021-01-24 20:55:07,815 ERROR 9664 [-/127.0.0.1/-/20ms POST /login] nodejs.TypeError: Cannot read property 'length' of null
+    at UserController.login (D:\code_file\毕设\services\app\controller\common\user.js:30:20)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 9664
+hostname: LAPTOP-NGODR02R
+

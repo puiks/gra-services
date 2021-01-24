@@ -13,10 +13,23 @@
       "genid": "<Function v4>"
     },
     "security": {
-      "domainWhiteList": [],
+      "domainWhiteList": [
+        "*"
+      ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
-      "csrf": false,
+      "csrf": {
+        "enable": false,
+        "type": "ctoken",
+        "ignoreJSON": false,
+        "useSession": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "refererWhiteList": []
+      },
       "xframe": {
         "enable": true,
         "value": "SAMEORIGIN",
@@ -94,6 +107,7 @@
         "D:\\code_file\\毕设\\services\\node_modules\\egg-static\\config\\locales",
         "D:\\code_file\\毕设\\services\\node_modules\\egg-view\\config\\locales",
         "D:\\code_file\\毕设\\services\\node_modules\\egg-mysql\\config\\locales",
+        "D:\\code_file\\毕设\\services\\node_modules\\egg-cors\\config\\locales",
         "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\locales",
         "D:\\code_file\\毕设\\services\\config\\locales"
       ],
@@ -183,6 +197,11 @@
         "dateStrings": true
       }
     },
+    "cors": {
+      "origin": "http://localhost:8080",
+      "credentials": true,
+      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS"
+    },
     "env": "local",
     "name": "services",
     "keys": "<String len: 27>",
@@ -214,6 +233,7 @@
       "homepage": "https://github.com/puiks/gra-services#readme",
       "dependencies": {
         "egg": "^2.29.1",
+        "egg-cors": "^2.2.3",
         "egg-mysql": "^3.0.0"
       },
       "devDependencies": {
@@ -297,6 +317,7 @@
       "logging": false
     },
     "coreMiddleware": [
+      "cors",
       "meta",
       "siteFile",
       "notfound",
@@ -495,6 +516,17 @@
       "from": "D:\\code_file\\毕设\\services\\config\\plugin.js",
       "path": "D:\\code_file\\毕设\\services\\node_modules\\egg-mysql",
       "version": "3.0.0"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "D:\\code_file\\毕设\\services\\config\\plugin.js",
+      "path": "D:\\code_file\\毕设\\services\\node_modules\\egg-cors",
+      "version": "2.2.3"
     }
   }
 }

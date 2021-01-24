@@ -9,9 +9,8 @@ class UserService extends Service {
     };
     async login(userInfo) {
         let result = null;
-        // console.log(userInfo);
         switch (userInfo.loginType) {
-            case '0':
+            case 0:
                 result = await this.app.mysql.select('user', {
                     where: {
                         username: userInfo.username,
@@ -19,7 +18,7 @@ class UserService extends Service {
                     }
                 });
                 break;
-            case '1':
+            case 1:
                 result = await this.app.mysql.select('user', {
                     where: {
                         telephone: userInfo.telephone,
@@ -27,7 +26,7 @@ class UserService extends Service {
                     }
                 });
                 break;
-            case '2':
+            case 2:
                 result = await this.app.mysql.select('user', {
                     where: {
                         email: userInfo.email,
@@ -36,7 +35,6 @@ class UserService extends Service {
                 });
                 break;
         }
-        // console.log(result);
         return result;
     }
 }

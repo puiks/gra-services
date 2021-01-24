@@ -25,12 +25,8 @@ class UserController extends Controller {
         ** 2 -----  邮箱登录
        */
         const ctx = this.ctx;
-        const loginType = ctx.query.loginType;
         const userInfo = ctx.request.body;
-        const result = await ctx.service.common.user.login({
-            ...userInfo,
-            loginType
-        });
+        const result = await ctx.service.common.user.login(userInfo);
         if (result.length !== 0) {
             ctx.body = {
                 status: '200',

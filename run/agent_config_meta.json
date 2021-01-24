@@ -17,8 +17,19 @@
     "agent": "D:\\code_file\\毕设\\services\\node_modules\\egg-mysql\\config\\config.default.js"
   },
   "security": {
-    "csrf": "D:\\code_file\\毕设\\services\\config\\config.default.js",
-    "domainWhiteList": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\code_file\\毕设\\services\\config\\config.default.js",
+      "type": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "D:\\code_file\\毕设\\services\\config\\config.default.js",
     "protocolWhiteList": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
     "defaultMiddleware": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
@@ -58,6 +69,11 @@
       "ipBlackList": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js",
       "checkAddress": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js"
     }
+  },
+  "cors": {
+    "origin": "D:\\code_file\\毕设\\services\\config\\config.default.js",
+    "credentials": "D:\\code_file\\毕设\\services\\config\\config.default.js",
+    "allowMethods": "D:\\code_file\\毕设\\services\\config\\config.default.js"
   },
   "session": {
     "maxAge": "D:\\code_file\\毕设\\services\\node_modules\\egg-session\\config\\config.default.js",
@@ -180,6 +196,7 @@
     "homepage": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
       "egg": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js",
       "egg-mysql": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
