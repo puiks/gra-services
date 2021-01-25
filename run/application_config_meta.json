@@ -1,5 +1,6 @@
 {
   "keys": "D:\\code_file\\毕设\\services\\config\\config.default.js",
+  "middleware": "D:\\code_file\\毕设\\services\\config\\config.default.js",
   "mysql": {
     "client": {
       "host": "D:\\code_file\\毕设\\services\\config\\config.default.js",

@@ -312,3 +312,39 @@ headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-
 pid: 11780
 hostname: LAPTOP-NGODR02R
 
+2021-01-25 21:55:07,333 ERROR 16472 [-/127.0.0.1/-/291ms POST /login] nodejs.TypeError: Cannot read property 'length' of null
+    at UserController.login (D:\code_file\毕设\services\app\controller\common\user.js:39:20)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 16472
+hostname: LAPTOP-NGODR02R
+
+2021-01-25 21:55:38,091 ERROR 16472 [-/127.0.0.1/-/1ms POST /login] nodejs.TypeError: Cannot read property 'length' of null
+    at UserController.login (D:\code_file\毕设\services\app\controller\common\user.js:39:20)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 16472
+hostname: LAPTOP-NGODR02R
+
+2021-01-25 21:56:01,825 ERROR 13504 [-/127.0.0.1/-/32ms POST /login] nodejs.TypeError: Cannot read property 'length' of null
+    at UserController.login (D:\code_file\毕设\services\app\controller\common\user.js:39:20)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 13504
+hostname: LAPTOP-NGODR02R
+
+2021-01-25 22:05:58,486 ERROR 12044 [-/127.0.0.1/-/6ms GET /default/index] nodejs.TypeError: Cannot read property 'session' of undefined
+    at auth (D:\code_file\毕设\services\app\middleware\auth.js:3:30)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code_file\毕设\services\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 12044
+hostname: LAPTOP-NGODR02R
+

@@ -197,7 +197,8 @@
     "dependencies": {
       "egg": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js",
       "egg-cors": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js",
-      "egg-mysql": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js"
+      "egg-mysql": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js",
+      "moment": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
       "egg-bin": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js"

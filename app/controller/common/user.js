@@ -37,6 +37,7 @@ class UserController extends Controller {
         const userInfo = ctx.request.body;
         const result = await ctx.service.common.user.login(userInfo);
         if (result.length !== 0) {
+            ctx.session.openId = { openId: Date.now() };
             ctx.body = {
                 status: '200',
                 desc: '成功登录'
@@ -47,7 +48,32 @@ class UserController extends Controller {
                 desc: '用户名/邮箱/手机号或密码错误'
             };
         }
+        // console.log(ctx.session);
     };
+    async resetPassword() {
+        const ctx = this.ctx;
+        const userInfo = ctx.request.body;
+        const result = await ctx.service.common.user.resetPassword(userInfo);
+        if (result === 0) {
+            ctx.body = {
+                status: 204,
+                desc: '成功修改密码'
+            };
+        } else {
+            ctx.body = {
+                status: 501,
+                desc: '修改失败'
+            };
+        }
+    };
+    async logout() {
+        const ctx = this.ctx;
+        ctx.session.openId = null;
+        ctx.body = {
+            status: 204,
+            desc: '已退出登录'
+        }
+    }
 };
 
 module.exports = UserController;

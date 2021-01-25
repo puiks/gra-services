@@ -3,6 +3,7 @@ module.exports = appInfo => {
     // cookie配置
     config.keys = appInfo.name + '_1594602090964_3116';
     // 数据库配置
+    config.middleware = [];
     config.mysql = {
         client: {
             host: 'localhost',

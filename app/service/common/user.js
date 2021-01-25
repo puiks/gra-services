@@ -10,7 +10,7 @@ class UserService extends Service {
     async login(userInfo) {
         let result = null;
         switch (userInfo.loginType) {
-            case 0:
+            case '0':
                 result = await this.app.mysql.select('user', {
                     where: {
                         username: userInfo.username,
@@ -36,6 +36,10 @@ class UserService extends Service {
                 break;
         }
         return result;
+    }
+    async resetPassword(userInfo) {
+        const result = await this.app.mysql.update('user', userInfo);
+        return result.affectedRows === 1 ? 0 : 1;
     }
 }
 
