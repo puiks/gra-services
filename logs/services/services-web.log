@@ -229,3 +229,86 @@ headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-
 pid: 9664
 hostname: LAPTOP-NGODR02R
 
+2021-01-25 15:06:51,704 ERROR 8512 [-/127.0.0.1/-/358ms POST /register] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'confirm' in 'field list'
+    at Query.Sequence._packetToError (D:\code_file\毕设\services\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\code_file\毕设\services\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\code_file\毕设\services\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\code_file\毕设\services\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\code_file\毕设\services\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\code_file\毕设\services\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\code_file\毕设\services\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\code_file\毕设\services\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (D:\code_file\毕设\services\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\code_file\毕设\services\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\code_file\毕设\services\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\code_file\毕设\services\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\code_file\毕设\services\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\code_file\毕设\services\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\code_file\毕设\services\node_modules\co\index.js:65:19)
+    at D:\code_file\毕设\services\node_modules\co\index.js:54:5
+    sql: INSERT INTO `user`(`username`, `password`, `confirm`, `telephone`, `email`, `sex`, `type`, `state`, `registerDate`) VALUES('141', '141', '141', '141', '141@qq.com', 0, 0, 0, '2021-01-25')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'confirm' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `user`(`username`, `password`, `confirm`, `telephone`, `email`, `sex`, `type`, `state`, `registerDate`) VALUES('141', '141', '141', '141', '141@qq.com', 0, 0, 0, '2021-01-25')"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 8512
+hostname: LAPTOP-NGODR02R
+
+2021-01-25 15:12:18,030 ERROR 8512 [-/127.0.0.1/-/98ms POST /register] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '[object Object]' for column 'telephone' at row 1
+    at Query.Sequence._packetToError (D:\code_file\毕设\services\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\code_file\毕设\services\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\code_file\毕设\services\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\code_file\毕设\services\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\code_file\毕设\services\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\code_file\毕设\services\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\code_file\毕设\services\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\code_file\毕设\services\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (D:\code_file\毕设\services\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\code_file\毕设\services\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\code_file\毕设\services\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\code_file\毕设\services\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\code_file\毕设\services\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\code_file\毕设\services\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\code_file\毕设\services\node_modules\co\index.js:65:19)
+    at D:\code_file\毕设\services\node_modules\co\index.js:54:5
+    sql: INSERT INTO `user`(`username`, `password`, `telephone`, `email`, `sex`, `type`, `state`, `registerDate`) VALUES('[object Object]', '[object Object]', '[object Object]', '[object Object]', '[object Object]', 0, 0, '2021-01-25')
+code: "ER_TRUNCATED_WRONG_VALUE_FOR_FIELD"
+errno: 1366
+sqlMessage: "Incorrect integer value: '[object Object]' for column 'telephone' at row 1"
+sqlState: "HY000"
+index: 0
+sql: "INSERT INTO `user`(`username`, `password`, `telephone`, `email`, `sex`, `type`, `state`, `registerDate`) VALUES('[object Object]', '[object Object]', '[object Object]', '[object Object]', '[object Object]', 0, 0, '2021-01-25')"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError"
+pid: 8512
+hostname: LAPTOP-NGODR02R
+
+2021-01-25 15:18:13,473 ERROR 11780 [-/127.0.0.1/-/49ms POST /register] nodejs.TypeError: Found non-callable @@iterator
+    at UserController.register (D:\code_file\毕设\services\app\controller\common\user.js:11:17)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\code_file\毕设\services\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 11780
+hostname: LAPTOP-NGODR02R
+

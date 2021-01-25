@@ -298,3 +298,30 @@
 2021-01-24 21:15:49,005 INFO 15476 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2021-01-24 21:15:49,005 INFO 15476 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\clean_log.js
 2021-01-24 21:15:49,005 INFO 15476 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-25 14:54:43,830 INFO 15200 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-25 14:54:43,830 INFO 15200 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-25 14:54:43,830 INFO 15200 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-25 14:54:45,050 INFO 10064 [Timer] D:\code_file\毕设\services\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 48914966ms at 2021-01-26 04:30:00.016
+2021-01-25 14:54:45,050 INFO 10064 [Timer] D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 32714950ms at 2021-01-26 00:00:00.000
+2021-01-25 14:54:45,050 INFO 10064 [Timer] D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 32715950ms at 2021-01-26 00:00:01.000
+2021-01-25 15:05:17,605 INFO 15072 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-25 15:05:17,605 INFO 15072 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-25 15:05:17,605 INFO 15072 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-25 15:05:59,908 INFO 8512 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-25 15:05:59,908 INFO 8512 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-25 15:05:59,908 INFO 8512 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-25 15:14:49,798 INFO 13964 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-25 15:14:49,798 INFO 13964 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-25 15:14:49,798 INFO 13964 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-25 15:18:05,219 INFO 11780 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-25 15:18:05,219 INFO 11780 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-25 15:18:05,219 INFO 11780 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-25 15:18:50,084 INFO 18036 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-25 15:18:50,084 INFO 18036 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-25 15:18:50,084 INFO 18036 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-25 15:19:58,054 INFO 5592 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-25 15:19:58,054 INFO 5592 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-25 15:19:58,054 INFO 5592 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-25 15:20:05,721 INFO 14100 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-25 15:20:05,721 INFO 14100 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-25 15:20:05,721 INFO 14100 [egg-schedule]: register schedule D:\code_file\毕设\services\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

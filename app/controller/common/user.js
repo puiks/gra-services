@@ -1,10 +1,19 @@
 const Controller = require('egg').Controller;
+const moment = require('moment');
+
+moment.locale('zh-cn');
 
 class UserController extends Controller {
     async register() {
         const ctx = this.ctx;
         const userInfo = ctx.request.body;
-        const result = await ctx.service.common.user.register(userInfo);
+        const today = moment().format('YYYY-MM-DD');
+        const result = await ctx.service.common.user.register({
+            ...userInfo,
+            type: 0,
+            state: 0,
+            registerDate: today
+        });
         if (result === 0) {
             ctx.body = {
                 status: '200',
