@@ -38,9 +38,11 @@ class UserController extends Controller {
         const result = await ctx.service.common.user.login(userInfo);
         if (result.length !== 0) {
             ctx.session.openId = { openId: Date.now() };
+            ctx.session.uid = result[0].id;
             ctx.body = {
                 status: '200',
-                desc: '成功登录'
+                desc: '成功登录',
+                type: result[0].type
             };
         } else {
             ctx.body = {
@@ -73,6 +75,17 @@ class UserController extends Controller {
             status: 204,
             desc: '已退出登录'
         }
+    }
+    async checkCode() {
+        const ctx = this.ctx;
+        const myCode = 'now';
+        const code = ctx.request.body.code;
+        if (code === myCode) {
+            ctx.body = { status: 204 };
+        } else {
+            ctx.body = { status: 401 };
+        }
+        // const result = ctx.service.common.user.checkCode();
     }
 };
 

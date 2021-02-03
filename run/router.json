@@ -19,6 +19,31 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/admin/getUserLists",
+    "regexp": "/^\\/admin\\/getUserLists(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [],
+    "path": "/admin/updateUserState",
+    "regexp": "/^\\/admin\\/updateUserState(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/default/index",
     "regexp": "/^\\/default\\/index(?:\\/(?=$))?$/",
     "stack": [
@@ -71,6 +96,80 @@
     "paramNames": [],
     "path": "/resetPassword",
     "regexp": "/^\\/resetPassword(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/checkCode",
+    "regexp": "/^\\/checkCode(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/getAllSongLists",
+    "regexp": "/^\\/getAllSongLists(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [],
+    "path": "/deleteSongList",
+    "regexp": "/^\\/deleteSongList(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/getSongList",
+    "regexp": "/^\\/getSongList(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [],
+    "path": "/updateSongList",
+    "regexp": "/^\\/updateSongList(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/addSongList",
+    "regexp": "/^\\/addSongList(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

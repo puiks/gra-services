@@ -4,4 +4,10 @@ module.exports = app => {
     router.post('/login', controller.common.user.login);
     router.post('/register', controller.common.user.register);
     router.put('/resetPassword', controller.common.user.resetPassword);
+    router.post('/checkCode', controller.common.user.checkCode);
+    router.get('/getAllSongLists', controller.common.songList.getAllSongLists);
+    router.delete('/deleteSongList', controller.common.songList.deleteSongList);
+    router.get('/getSongList', controller.common.songList.getSongList);
+    router.put('/updateSongList', controller.common.songList.updateSongList);
+    router.post('/addSongList', controller.common.songList.addSongList);
 }
