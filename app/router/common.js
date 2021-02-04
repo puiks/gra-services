@@ -10,4 +10,7 @@ module.exports = app => {
     router.get('/getSongList', controller.common.songList.getSongList);
     router.put('/updateSongList', controller.common.songList.updateSongList);
     router.post('/addSongList', controller.common.songList.addSongList);
+    router.get('/getSongsComments', controller.common.comment.getSongsComments);
+    router.get('/getSubComments', controller.common.comment.getSubComments);
+    router.post('/addComment', controller.common.comment.addComment);
 }

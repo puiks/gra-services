@@ -44,6 +44,31 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/admin/getAllComments",
+    "regexp": "/^\\/admin\\/getAllComments(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [],
+    "path": "/admin/deleteComment",
+    "regexp": "/^\\/admin\\/deleteComment(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/default/index",
     "regexp": "/^\\/default\\/index(?:\\/(?=$))?$/",
     "stack": [
@@ -170,6 +195,44 @@
     "paramNames": [],
     "path": "/addSongList",
     "regexp": "/^\\/addSongList(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/getSongsComments",
+    "regexp": "/^\\/getSongsComments(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/getSubComments",
+    "regexp": "/^\\/getSubComments(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/addComment",
+    "regexp": "/^\\/addComment(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
