@@ -2177,3 +2177,393 @@ hostname: LAPTOP-NGODR02R
 2021-02-04 22:12:56,343 INFO 17752 [egg-watcher:application] watcher start success
 2021-02-04 22:12:56,354 INFO 17752 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-04 22:12:56
 2021-02-04 22:12:56,363 INFO 17752 [egg:core] dump config after ready, 7ms
+2021-02-07 10:25:55,106 INFO 11684 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:25:55,145 INFO 11684 [egg-multipart] stream mode enable
+2021-02-07 10:25:55,146 INFO 11684 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:25:55,854 INFO 11684 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:25:55,857 INFO 11684 [egg-security] use methodnoallow middleware
+2021-02-07 10:25:55,857 INFO 11684 [egg-security] use noopen middleware
+2021-02-07 10:25:55,858 INFO 11684 [egg-security] use nosniff middleware
+2021-02-07 10:25:55,859 INFO 11684 [egg-security] use xssProtection middleware
+2021-02-07 10:25:55,860 INFO 11684 [egg-security] use xframe middleware
+2021-02-07 10:25:55,860 INFO 11684 [egg-security] use dta middleware
+2021-02-07 10:25:55,860 INFO 11684 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:25:55,945 INFO 11684 [egg:core] dump config after load, 8ms
+2021-02-07 10:25:55,980 INFO 11684 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:25:55
+2021-02-07 10:25:55,982 INFO 11684 [egg-watcher:application] watcher start success
+2021-02-07 10:25:56,000 INFO 11684 [egg:core] dump config after ready, 7ms
+2021-02-07 10:27:40,710 INFO 10800 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:27:40,811 INFO 10800 [egg-multipart] stream mode enable
+2021-02-07 10:27:40,812 INFO 10800 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:27:41,005 INFO 10800 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:27:41,009 INFO 10800 [egg-security] use methodnoallow middleware
+2021-02-07 10:27:41,010 INFO 10800 [egg-security] use noopen middleware
+2021-02-07 10:27:41,010 INFO 10800 [egg-security] use nosniff middleware
+2021-02-07 10:27:41,011 INFO 10800 [egg-security] use xssProtection middleware
+2021-02-07 10:27:41,012 INFO 10800 [egg-security] use xframe middleware
+2021-02-07 10:27:41,012 INFO 10800 [egg-security] use dta middleware
+2021-02-07 10:27:41,012 INFO 10800 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:27:41,032 INFO 10800 [egg:core] dump config after load, 5ms
+2021-02-07 10:27:41,060 INFO 10800 [egg-watcher:application] watcher start success
+2021-02-07 10:27:41,064 INFO 10800 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:27:41
+2021-02-07 10:27:41,073 INFO 10800 [egg:core] dump config after ready, 7ms
+2021-02-07 10:28:06,843 INFO 16156 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:28:06,882 INFO 16156 [egg-multipart] stream mode enable
+2021-02-07 10:28:06,882 INFO 16156 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:28:07,151 INFO 16156 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:28:07,165 INFO 16156 [egg-security] use methodnoallow middleware
+2021-02-07 10:28:07,166 INFO 16156 [egg-security] use noopen middleware
+2021-02-07 10:28:07,167 INFO 16156 [egg-security] use nosniff middleware
+2021-02-07 10:28:07,167 INFO 16156 [egg-security] use xssProtection middleware
+2021-02-07 10:28:07,169 INFO 16156 [egg-security] use xframe middleware
+2021-02-07 10:28:07,172 INFO 16156 [egg-security] use dta middleware
+2021-02-07 10:28:07,173 INFO 16156 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:28:07,211 INFO 16156 [egg:core] dump config after load, 10ms
+2021-02-07 10:28:07,254 INFO 16156 [egg-watcher:application] watcher start success
+2021-02-07 10:28:07,260 INFO 16156 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:28:07
+2021-02-07 10:28:07,273 INFO 16156 [egg:core] dump config after ready, 11ms
+2021-02-07 10:28:44,471 INFO 4688 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:28:44,523 INFO 4688 [egg-multipart] stream mode enable
+2021-02-07 10:28:44,523 INFO 4688 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:28:44,731 INFO 4688 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:28:44,734 INFO 4688 [egg-security] use methodnoallow middleware
+2021-02-07 10:28:44,735 INFO 4688 [egg-security] use noopen middleware
+2021-02-07 10:28:44,735 INFO 4688 [egg-security] use nosniff middleware
+2021-02-07 10:28:44,736 INFO 4688 [egg-security] use xssProtection middleware
+2021-02-07 10:28:44,737 INFO 4688 [egg-security] use xframe middleware
+2021-02-07 10:28:44,738 INFO 4688 [egg-security] use dta middleware
+2021-02-07 10:28:44,738 INFO 4688 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:28:44,762 INFO 4688 [egg:core] dump config after load, 7ms
+2021-02-07 10:28:44,780 INFO 4688 [egg-watcher:application] watcher start success
+2021-02-07 10:28:44,786 INFO 4688 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:28:44
+2021-02-07 10:28:44,796 INFO 4688 [egg:core] dump config after ready, 8ms
+2021-02-07 10:29:03,398 INFO 5168 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:29:03,438 INFO 5168 [egg-multipart] stream mode enable
+2021-02-07 10:29:03,439 INFO 5168 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:29:03,716 INFO 5168 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:29:03,718 INFO 5168 [egg-security] use methodnoallow middleware
+2021-02-07 10:29:03,719 INFO 5168 [egg-security] use noopen middleware
+2021-02-07 10:29:03,720 INFO 5168 [egg-security] use nosniff middleware
+2021-02-07 10:29:03,720 INFO 5168 [egg-security] use xssProtection middleware
+2021-02-07 10:29:03,721 INFO 5168 [egg-security] use xframe middleware
+2021-02-07 10:29:03,722 INFO 5168 [egg-security] use dta middleware
+2021-02-07 10:29:03,722 INFO 5168 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:29:03,750 INFO 5168 [egg:core] dump config after load, 8ms
+2021-02-07 10:29:03,781 INFO 5168 [egg-watcher:application] watcher start success
+2021-02-07 10:29:03,785 INFO 5168 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:29:03
+2021-02-07 10:29:03,814 INFO 5168 [egg:core] dump config after ready, 22ms
+2021-02-07 10:29:16,347 INFO 14344 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:29:16,396 INFO 14344 [egg-multipart] stream mode enable
+2021-02-07 10:29:16,396 INFO 14344 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:29:16,673 INFO 14344 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:29:16,678 INFO 14344 [egg-security] use methodnoallow middleware
+2021-02-07 10:29:16,679 INFO 14344 [egg-security] use noopen middleware
+2021-02-07 10:29:16,680 INFO 14344 [egg-security] use nosniff middleware
+2021-02-07 10:29:16,681 INFO 14344 [egg-security] use xssProtection middleware
+2021-02-07 10:29:16,682 INFO 14344 [egg-security] use xframe middleware
+2021-02-07 10:29:16,682 INFO 14344 [egg-security] use dta middleware
+2021-02-07 10:29:16,682 INFO 14344 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:29:16,718 INFO 14344 [egg:core] dump config after load, 9ms
+2021-02-07 10:29:16,747 INFO 14344 [egg-watcher:application] watcher start success
+2021-02-07 10:29:16,750 INFO 14344 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:29:16
+2021-02-07 10:29:16,762 INFO 14344 [egg:core] dump config after ready, 10ms
+2021-02-07 10:29:39,757 INFO 12048 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:29:39,804 INFO 12048 [egg-multipart] stream mode enable
+2021-02-07 10:29:39,804 INFO 12048 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:29:40,034 INFO 12048 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:29:40,037 INFO 12048 [egg-security] use methodnoallow middleware
+2021-02-07 10:29:40,038 INFO 12048 [egg-security] use noopen middleware
+2021-02-07 10:29:40,040 INFO 12048 [egg-security] use nosniff middleware
+2021-02-07 10:29:40,041 INFO 12048 [egg-security] use xssProtection middleware
+2021-02-07 10:29:40,042 INFO 12048 [egg-security] use xframe middleware
+2021-02-07 10:29:40,043 INFO 12048 [egg-security] use dta middleware
+2021-02-07 10:29:40,043 INFO 12048 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:29:40,069 INFO 12048 [egg:core] dump config after load, 8ms
+2021-02-07 10:29:40,103 INFO 12048 [egg-watcher:application] watcher start success
+2021-02-07 10:29:40,104 INFO 12048 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:29:40
+2021-02-07 10:29:40,119 INFO 12048 [egg:core] dump config after ready, 11ms
+2021-02-07 10:30:34,574 INFO 8292 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:30:34,633 INFO 8292 [egg-multipart] stream mode enable
+2021-02-07 10:30:34,634 INFO 8292 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:30:34,929 INFO 8292 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:30:34,932 INFO 8292 [egg-security] use methodnoallow middleware
+2021-02-07 10:30:34,933 INFO 8292 [egg-security] use noopen middleware
+2021-02-07 10:30:34,934 INFO 8292 [egg-security] use nosniff middleware
+2021-02-07 10:30:34,935 INFO 8292 [egg-security] use xssProtection middleware
+2021-02-07 10:30:34,936 INFO 8292 [egg-security] use xframe middleware
+2021-02-07 10:30:34,936 INFO 8292 [egg-security] use dta middleware
+2021-02-07 10:30:34,937 INFO 8292 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:30:34,962 INFO 8292 [egg:core] dump config after load, 7ms
+2021-02-07 10:30:34,981 INFO 8292 [egg-watcher:application] watcher start success
+2021-02-07 10:30:34,989 INFO 8292 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:30:34
+2021-02-07 10:30:34,998 INFO 8292 [egg:core] dump config after ready, 7ms
+2021-02-07 10:31:59,638 INFO 10260 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:31:59,682 INFO 10260 [egg-multipart] stream mode enable
+2021-02-07 10:31:59,683 INFO 10260 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:32:00,000 INFO 10260 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:32:00,008 INFO 10260 [egg-security] use methodnoallow middleware
+2021-02-07 10:32:00,011 INFO 10260 [egg-security] use noopen middleware
+2021-02-07 10:32:00,014 INFO 10260 [egg-security] use nosniff middleware
+2021-02-07 10:32:00,016 INFO 10260 [egg-security] use xssProtection middleware
+2021-02-07 10:32:00,020 INFO 10260 [egg-security] use xframe middleware
+2021-02-07 10:32:00,024 INFO 10260 [egg-security] use dta middleware
+2021-02-07 10:32:00,024 INFO 10260 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:32:00,059 INFO 10260 [egg:core] dump config after load, 10ms
+2021-02-07 10:32:00,109 INFO 10260 [egg-watcher:application] watcher start success
+2021-02-07 10:32:00,114 INFO 10260 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:32:00
+2021-02-07 10:32:00,147 INFO 10260 [egg:core] dump config after ready, 30ms
+2021-02-07 10:40:15,343 INFO 1668 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:40:15,408 INFO 1668 [egg-multipart] stream mode enable
+2021-02-07 10:40:15,409 INFO 1668 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:40:15,675 INFO 1668 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:40:15,678 INFO 1668 [egg-security] use methodnoallow middleware
+2021-02-07 10:40:15,679 INFO 1668 [egg-security] use noopen middleware
+2021-02-07 10:40:15,680 INFO 1668 [egg-security] use nosniff middleware
+2021-02-07 10:40:15,681 INFO 1668 [egg-security] use xssProtection middleware
+2021-02-07 10:40:15,682 INFO 1668 [egg-security] use xframe middleware
+2021-02-07 10:40:15,683 INFO 1668 [egg-security] use dta middleware
+2021-02-07 10:40:15,683 INFO 1668 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:40:15,709 INFO 1668 [egg:core] dump config after load, 8ms
+2021-02-07 10:40:15,735 INFO 1668 [egg-watcher:application] watcher start success
+2021-02-07 10:40:15,739 INFO 1668 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:40:15
+2021-02-07 10:40:15,749 INFO 1668 [egg:core] dump config after ready, 8ms
+2021-02-07 10:40:16,992 INFO 15568 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:40:17,044 INFO 15568 [egg-multipart] stream mode enable
+2021-02-07 10:40:17,045 INFO 15568 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:40:17,289 INFO 15568 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:40:17,295 INFO 15568 [egg-security] use methodnoallow middleware
+2021-02-07 10:40:17,296 INFO 15568 [egg-security] use noopen middleware
+2021-02-07 10:40:17,297 INFO 15568 [egg-security] use nosniff middleware
+2021-02-07 10:40:17,298 INFO 15568 [egg-security] use xssProtection middleware
+2021-02-07 10:40:17,303 INFO 15568 [egg-security] use xframe middleware
+2021-02-07 10:40:17,305 INFO 15568 [egg-security] use dta middleware
+2021-02-07 10:40:17,305 INFO 15568 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:40:17,346 INFO 15568 [egg:core] dump config after load, 14ms
+2021-02-07 10:40:17,397 INFO 15568 [egg-watcher:application] watcher start success
+2021-02-07 10:40:17,401 INFO 15568 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:40:17
+2021-02-07 10:40:17,413 INFO 15568 [egg:core] dump config after ready, 9ms
+2021-02-07 10:43:43,471 INFO 12992 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:43:43,651 INFO 12992 [egg-multipart] stream mode enable
+2021-02-07 10:43:43,652 INFO 12992 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:43:43,996 INFO 12992 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:43:44,000 INFO 12992 [egg-security] use methodnoallow middleware
+2021-02-07 10:43:44,000 INFO 12992 [egg-security] use noopen middleware
+2021-02-07 10:43:44,001 INFO 12992 [egg-security] use nosniff middleware
+2021-02-07 10:43:44,003 INFO 12992 [egg-security] use xssProtection middleware
+2021-02-07 10:43:44,011 INFO 12992 [egg-security] use xframe middleware
+2021-02-07 10:43:44,012 INFO 12992 [egg-security] use dta middleware
+2021-02-07 10:43:44,012 INFO 12992 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:43:44,038 INFO 12992 [egg:core] dump config after load, 7ms
+2021-02-07 10:43:44,061 INFO 12992 [egg-watcher:application] watcher start success
+2021-02-07 10:43:44,067 INFO 12992 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:43:44
+2021-02-07 10:43:44,077 INFO 12992 [egg:core] dump config after ready, 8ms
+2021-02-07 10:45:18,915 INFO 15660 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:45:19,148 INFO 15660 [egg-multipart] stream mode enable
+2021-02-07 10:45:19,148 INFO 15660 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:45:19,591 INFO 15660 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:45:19,595 INFO 15660 [egg-security] use methodnoallow middleware
+2021-02-07 10:45:19,595 INFO 15660 [egg-security] use noopen middleware
+2021-02-07 10:45:19,596 INFO 15660 [egg-security] use nosniff middleware
+2021-02-07 10:45:19,597 INFO 15660 [egg-security] use xssProtection middleware
+2021-02-07 10:45:19,598 INFO 15660 [egg-security] use xframe middleware
+2021-02-07 10:45:19,599 INFO 15660 [egg-security] use dta middleware
+2021-02-07 10:45:19,599 INFO 15660 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:45:19,633 INFO 15660 [egg:core] dump config after load, 6ms
+2021-02-07 10:45:19,659 INFO 15660 [egg-watcher:application] watcher start success
+2021-02-07 10:45:19,666 INFO 15660 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:45:19
+2021-02-07 10:45:19,678 INFO 15660 [egg:core] dump config after ready, 8ms
+2021-02-07 10:45:21,060 INFO 2280 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:45:21,108 INFO 2280 [egg-multipart] stream mode enable
+2021-02-07 10:45:21,108 INFO 2280 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:45:21,383 INFO 2280 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:45:21,395 INFO 2280 [egg-security] use methodnoallow middleware
+2021-02-07 10:45:21,397 INFO 2280 [egg-security] use noopen middleware
+2021-02-07 10:45:21,398 INFO 2280 [egg-security] use nosniff middleware
+2021-02-07 10:45:21,399 INFO 2280 [egg-security] use xssProtection middleware
+2021-02-07 10:45:21,400 INFO 2280 [egg-security] use xframe middleware
+2021-02-07 10:45:21,400 INFO 2280 [egg-security] use dta middleware
+2021-02-07 10:45:21,400 INFO 2280 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:45:21,445 INFO 2280 [egg:core] dump config after load, 7ms
+2021-02-07 10:45:21,471 INFO 2280 [egg-watcher:application] watcher start success
+2021-02-07 10:45:21,475 INFO 2280 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:45:21
+2021-02-07 10:45:21,484 INFO 2280 [egg:core] dump config after ready, 7ms
+2021-02-07 10:46:29,091 INFO 5412 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:46:29,133 INFO 5412 [egg-multipart] stream mode enable
+2021-02-07 10:46:29,134 INFO 5412 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:46:29,361 INFO 5412 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:46:29,364 INFO 5412 [egg-security] use methodnoallow middleware
+2021-02-07 10:46:29,364 INFO 5412 [egg-security] use noopen middleware
+2021-02-07 10:46:29,365 INFO 5412 [egg-security] use nosniff middleware
+2021-02-07 10:46:29,366 INFO 5412 [egg-security] use xssProtection middleware
+2021-02-07 10:46:29,367 INFO 5412 [egg-security] use xframe middleware
+2021-02-07 10:46:29,367 INFO 5412 [egg-security] use dta middleware
+2021-02-07 10:46:29,367 INFO 5412 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:46:29,396 INFO 5412 [egg:core] dump config after load, 8ms
+2021-02-07 10:46:29,420 INFO 5412 [egg-watcher:application] watcher start success
+2021-02-07 10:46:29,423 INFO 5412 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:46:29
+2021-02-07 10:46:29,433 INFO 5412 [egg:core] dump config after ready, 7ms
+2021-02-07 10:46:40,107 INFO 16320 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:46:40,158 INFO 16320 [egg-multipart] stream mode enable
+2021-02-07 10:46:40,159 INFO 16320 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:46:40,422 INFO 16320 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:46:40,425 INFO 16320 [egg-security] use methodnoallow middleware
+2021-02-07 10:46:40,427 INFO 16320 [egg-security] use noopen middleware
+2021-02-07 10:46:40,428 INFO 16320 [egg-security] use nosniff middleware
+2021-02-07 10:46:40,429 INFO 16320 [egg-security] use xssProtection middleware
+2021-02-07 10:46:40,429 INFO 16320 [egg-security] use xframe middleware
+2021-02-07 10:46:40,430 INFO 16320 [egg-security] use dta middleware
+2021-02-07 10:46:40,430 INFO 16320 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:46:40,454 INFO 16320 [egg:core] dump config after load, 8ms
+2021-02-07 10:46:40,479 INFO 16320 [egg-watcher:application] watcher start success
+2021-02-07 10:46:40,481 INFO 16320 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:46:40
+2021-02-07 10:46:40,492 INFO 16320 [egg:core] dump config after ready, 9ms
+2021-02-07 10:47:02,146 INFO 1248 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:47:02,193 INFO 1248 [egg-multipart] stream mode enable
+2021-02-07 10:47:02,194 INFO 1248 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:47:02,448 INFO 1248 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:47:02,450 INFO 1248 [egg-security] use methodnoallow middleware
+2021-02-07 10:47:02,451 INFO 1248 [egg-security] use noopen middleware
+2021-02-07 10:47:02,452 INFO 1248 [egg-security] use nosniff middleware
+2021-02-07 10:47:02,455 INFO 1248 [egg-security] use xssProtection middleware
+2021-02-07 10:47:02,455 INFO 1248 [egg-security] use xframe middleware
+2021-02-07 10:47:02,457 INFO 1248 [egg-security] use dta middleware
+2021-02-07 10:47:02,457 INFO 1248 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:47:02,481 INFO 1248 [egg:core] dump config after load, 6ms
+2021-02-07 10:47:02,510 INFO 1248 [egg-watcher:application] watcher start success
+2021-02-07 10:47:02,512 INFO 1248 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:47:02
+2021-02-07 10:47:02,526 INFO 1248 [egg:core] dump config after ready, 12ms
+2021-02-07 10:47:18,353 INFO 11752 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:47:18,512 INFO 11752 [egg-multipart] stream mode enable
+2021-02-07 10:47:18,513 INFO 11752 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:47:19,178 INFO 11752 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:47:19,182 INFO 11752 [egg-security] use methodnoallow middleware
+2021-02-07 10:47:19,195 INFO 11752 [egg-security] use noopen middleware
+2021-02-07 10:47:19,197 INFO 11752 [egg-security] use nosniff middleware
+2021-02-07 10:47:19,198 INFO 11752 [egg-security] use xssProtection middleware
+2021-02-07 10:47:19,203 INFO 11752 [egg-security] use xframe middleware
+2021-02-07 10:47:19,206 INFO 11752 [egg-security] use dta middleware
+2021-02-07 10:47:19,206 INFO 11752 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:47:19,295 INFO 11752 [egg:core] dump config after load, 24ms
+2021-02-07 10:47:19,347 INFO 11752 [egg-watcher:application] watcher start success
+2021-02-07 10:47:19,359 INFO 11752 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:47:19
+2021-02-07 10:47:19,377 INFO 11752 [egg:core] dump config after ready, 15ms
+2021-02-07 10:52:19,527 INFO 16800 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:52:19,599 INFO 16800 [egg-multipart] stream mode enable
+2021-02-07 10:52:19,600 INFO 16800 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:52:19,842 INFO 16800 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:52:19,855 INFO 16800 [egg-security] use methodnoallow middleware
+2021-02-07 10:52:19,857 INFO 16800 [egg-security] use noopen middleware
+2021-02-07 10:52:19,858 INFO 16800 [egg-security] use nosniff middleware
+2021-02-07 10:52:19,859 INFO 16800 [egg-security] use xssProtection middleware
+2021-02-07 10:52:19,860 INFO 16800 [egg-security] use xframe middleware
+2021-02-07 10:52:19,861 INFO 16800 [egg-security] use dta middleware
+2021-02-07 10:52:19,861 INFO 16800 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:52:19,906 INFO 16800 [egg:core] dump config after load, 12ms
+2021-02-07 10:52:19,939 INFO 16800 [egg-watcher:application] watcher start success
+2021-02-07 10:52:19,941 INFO 16800 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:52:19
+2021-02-07 10:52:19,957 INFO 16800 [egg:core] dump config after ready, 12ms
+2021-02-07 10:52:21,152 INFO 16032 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:52:21,196 INFO 16032 [egg-multipart] stream mode enable
+2021-02-07 10:52:21,197 INFO 16032 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:52:21,475 INFO 16032 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:52:21,481 INFO 16032 [egg-security] use methodnoallow middleware
+2021-02-07 10:52:21,488 INFO 16032 [egg-security] use noopen middleware
+2021-02-07 10:52:21,490 INFO 16032 [egg-security] use nosniff middleware
+2021-02-07 10:52:21,494 INFO 16032 [egg-security] use xssProtection middleware
+2021-02-07 10:52:21,496 INFO 16032 [egg-security] use xframe middleware
+2021-02-07 10:52:21,543 INFO 16032 [egg-security] use dta middleware
+2021-02-07 10:52:21,543 INFO 16032 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:52:21,630 INFO 16032 [egg:core] dump config after load, 24ms
+2021-02-07 10:52:21,763 INFO 16032 [egg-watcher:application] watcher start success
+2021-02-07 10:52:21,770 INFO 16032 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:52:21
+2021-02-07 10:52:21,779 INFO 16032 [egg:core] dump config after ready, 7ms
+2021-02-07 10:53:06,366 INFO 8812 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:53:06,449 INFO 8812 [egg-multipart] stream mode enable
+2021-02-07 10:53:06,450 INFO 8812 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:53:06,793 INFO 8812 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:53:06,798 INFO 8812 [egg-security] use methodnoallow middleware
+2021-02-07 10:53:06,799 INFO 8812 [egg-security] use noopen middleware
+2021-02-07 10:53:06,800 INFO 8812 [egg-security] use nosniff middleware
+2021-02-07 10:53:06,802 INFO 8812 [egg-security] use xssProtection middleware
+2021-02-07 10:53:06,809 INFO 8812 [egg-security] use xframe middleware
+2021-02-07 10:53:06,811 INFO 8812 [egg-security] use dta middleware
+2021-02-07 10:53:06,811 INFO 8812 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:53:06,841 INFO 8812 [egg:core] dump config after load, 10ms
+2021-02-07 10:53:06,873 INFO 8812 [egg-watcher:application] watcher start success
+2021-02-07 10:53:06,875 INFO 8812 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:53:06
+2021-02-07 10:53:06,885 INFO 8812 [egg:core] dump config after ready, 8ms
+2021-02-07 10:53:08,226 INFO 17320 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:53:08,281 INFO 17320 [egg-multipart] stream mode enable
+2021-02-07 10:53:08,281 INFO 17320 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:53:08,530 INFO 17320 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:53:08,532 INFO 17320 [egg-security] use methodnoallow middleware
+2021-02-07 10:53:08,533 INFO 17320 [egg-security] use noopen middleware
+2021-02-07 10:53:08,534 INFO 17320 [egg-security] use nosniff middleware
+2021-02-07 10:53:08,535 INFO 17320 [egg-security] use xssProtection middleware
+2021-02-07 10:53:08,536 INFO 17320 [egg-security] use xframe middleware
+2021-02-07 10:53:08,536 INFO 17320 [egg-security] use dta middleware
+2021-02-07 10:53:08,537 INFO 17320 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:53:08,564 INFO 17320 [egg:core] dump config after load, 10ms
+2021-02-07 10:53:08,588 INFO 17320 [egg-watcher:application] watcher start success
+2021-02-07 10:53:08,593 INFO 17320 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:53:08
+2021-02-07 10:53:08,604 INFO 17320 [egg:core] dump config after ready, 9ms
+2021-02-07 10:53:43,694 INFO 6376 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:53:43,753 INFO 6376 [egg-multipart] stream mode enable
+2021-02-07 10:53:43,755 INFO 6376 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:53:44,142 INFO 6376 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:53:44,145 INFO 6376 [egg-security] use methodnoallow middleware
+2021-02-07 10:53:44,146 INFO 6376 [egg-security] use noopen middleware
+2021-02-07 10:53:44,147 INFO 6376 [egg-security] use nosniff middleware
+2021-02-07 10:53:44,147 INFO 6376 [egg-security] use xssProtection middleware
+2021-02-07 10:53:44,148 INFO 6376 [egg-security] use xframe middleware
+2021-02-07 10:53:44,148 INFO 6376 [egg-security] use dta middleware
+2021-02-07 10:53:44,148 INFO 6376 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:53:44,178 INFO 6376 [egg:core] dump config after load, 11ms
+2021-02-07 10:53:44,204 INFO 6376 [egg-watcher:application] watcher start success
+2021-02-07 10:53:44,208 INFO 6376 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:53:44
+2021-02-07 10:53:44,221 INFO 6376 [egg:core] dump config after ready, 10ms
+2021-02-07 10:58:22,312 INFO 8292 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:58:22,358 INFO 8292 [egg-multipart] stream mode enable
+2021-02-07 10:58:22,359 INFO 8292 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:58:22,599 INFO 8292 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:58:22,603 INFO 8292 [egg-security] use methodnoallow middleware
+2021-02-07 10:58:22,605 INFO 8292 [egg-security] use noopen middleware
+2021-02-07 10:58:22,606 INFO 8292 [egg-security] use nosniff middleware
+2021-02-07 10:58:22,607 INFO 8292 [egg-security] use xssProtection middleware
+2021-02-07 10:58:22,607 INFO 8292 [egg-security] use xframe middleware
+2021-02-07 10:58:22,609 INFO 8292 [egg-security] use dta middleware
+2021-02-07 10:58:22,609 INFO 8292 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:58:22,636 INFO 8292 [egg:core] dump config after load, 7ms
+2021-02-07 10:58:22,666 INFO 8292 [egg-watcher:application] watcher start success
+2021-02-07 10:58:22,670 INFO 8292 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:58:22
+2021-02-07 10:58:22,686 INFO 8292 [egg:core] dump config after ready, 13ms
+2021-02-07 10:58:33,929 INFO 11644 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:58:34,055 INFO 11644 [egg-multipart] stream mode enable
+2021-02-07 10:58:34,056 INFO 11644 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:58:34,631 INFO 11644 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:58:34,633 INFO 11644 [egg-security] use methodnoallow middleware
+2021-02-07 10:58:34,634 INFO 11644 [egg-security] use noopen middleware
+2021-02-07 10:58:34,635 INFO 11644 [egg-security] use nosniff middleware
+2021-02-07 10:58:34,635 INFO 11644 [egg-security] use xssProtection middleware
+2021-02-07 10:58:34,636 INFO 11644 [egg-security] use xframe middleware
+2021-02-07 10:58:34,636 INFO 11644 [egg-security] use dta middleware
+2021-02-07 10:58:34,637 INFO 11644 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:58:34,664 INFO 11644 [egg:core] dump config after load, 10ms
+2021-02-07 10:58:34,694 INFO 11644 [egg-watcher:application] watcher start success
+2021-02-07 10:58:34,703 INFO 11644 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:58:34
+2021-02-07 10:58:34,713 INFO 11644 [egg:core] dump config after ready, 8ms
+2021-02-07 10:59:11,762 INFO 15140 [egg:logger] init all loggers with options: {"dir":"D:\\code_file\\毕设\\services\\logs\\services","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"services-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 10:59:11,812 INFO 15140 [egg-multipart] stream mode enable
+2021-02-07 10:59:11,813 INFO 15140 [egg-mysql] connecting root@localhost:3306/cloud_music
+2021-02-07 10:59:12,042 INFO 15140 [egg-static] starting static serve /public/ -> D:\code_file\毕设\services\app\public
+2021-02-07 10:59:12,046 INFO 15140 [egg-security] use methodnoallow middleware
+2021-02-07 10:59:12,047 INFO 15140 [egg-security] use noopen middleware
+2021-02-07 10:59:12,048 INFO 15140 [egg-security] use nosniff middleware
+2021-02-07 10:59:12,048 INFO 15140 [egg-security] use xssProtection middleware
+2021-02-07 10:59:12,049 INFO 15140 [egg-security] use xframe middleware
+2021-02-07 10:59:12,049 INFO 15140 [egg-security] use dta middleware
+2021-02-07 10:59:12,049 INFO 15140 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 10:59:12,078 INFO 15140 [egg:core] dump config after load, 10ms
+2021-02-07 10:59:12,099 INFO 15140 [egg-watcher:application] watcher start success
+2021-02-07 10:59:12,105 INFO 15140 [egg-mysql] instance[0] status OK, rds currentTime: 2021-02-07 10:59:12
+2021-02-07 10:59:12,116 INFO 15140 [egg:core] dump config after ready, 8ms

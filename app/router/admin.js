@@ -1,9 +1,11 @@
 module.exports = app => {
     const { router, controller } = app;
     // const auth = app.middleware.auth();
-    router.get('/admin/index', controller.admin.home.index);
-    router.get('/admin/getUserLists', controller.admin.home.getUserLists);
-    router.put('/admin/updateUserState', controller.admin.home.updateUserState);
+    router.get('/admin/index', controller.admin.user.index);
+    router.get('/admin/getUserLists', controller.admin.user.getUserLists);
+    router.put('/admin/updateUserState', controller.admin.user.updateUserState);
     router.get('/admin/getAllComments', controller.admin.comment.getAllComments);
     router.delete('/admin/deleteComment', controller.admin.comment.deleteComment);
+    router.post('/admin/addBoard', controller.admin.board.addBoard);
+    router.delete('/admin/deleteBoard', controller.admin.board.deleteBoard);
 }

@@ -65,6 +65,30 @@
   {
     "name": null,
     "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/addBoard",
+    "regexp": "/^\\/admin\\/addBoard(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [],
+    "path": "/admin/deleteBoard",
+    "regexp": "/^\\/admin\\/deleteBoard(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "HEAD",
       "GET"
     ],
@@ -233,6 +257,32 @@
     "paramNames": [],
     "path": "/addComment",
     "regexp": "/^\\/addComment(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/getAllBoards",
+    "regexp": "/^\\/getAllBoards(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/selectBoard",
+    "regexp": "/^\\/selectBoard(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

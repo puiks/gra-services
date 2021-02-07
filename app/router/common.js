@@ -13,4 +13,6 @@ module.exports = app => {
     router.get('/getSongsComments', controller.common.comment.getSongsComments);
     router.get('/getSubComments', controller.common.comment.getSubComments);
     router.post('/addComment', controller.common.comment.addComment);
+    router.get('/getAllBoards', controller.common.board.getAllBoards);
+    router.get('/selectBoard', controller.common.board.selectBoard);
 }
