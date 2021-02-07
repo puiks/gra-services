@@ -89,6 +89,30 @@
   {
     "name": null,
     "methods": [
+      "DELETE"
+    ],
+    "paramNames": [],
+    "path": "/admin/deleteArtist",
+    "regexp": "/^\\/admin\\/deleteArtist(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [],
+    "path": "/admin/modifyArtist",
+    "regexp": "/^\\/admin\\/modifyArtist(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "HEAD",
       "GET"
     ],
@@ -283,6 +307,45 @@
     "paramNames": [],
     "path": "/selectBoard",
     "regexp": "/^\\/selectBoard(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/getAllArtists",
+    "regexp": "/^\\/getAllArtists(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/selectArtistByName",
+    "regexp": "/^\\/selectArtistByName(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/selectArtistByType",
+    "regexp": "/^\\/selectArtistByType(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

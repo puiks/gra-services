@@ -285,3 +285,48 @@ name: "ER_BAD_FIELD_ERRORError"
 pid: 11644
 hostname: LAPTOP-NGODR02R
 
+2021-02-07 15:50:23,650 ERROR 19616 [-/127.0.0.1/-/124ms GET /getAllArtists?offset=0] nodejs.TypeError: ctx.service.common.getAllArtists is not a function
+    at ArtistController.getAllArtists (D:\code_file\毕设\services\app\controller\common\artist.js:7:49)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\code_file\毕设\services\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+
+pid: 19616
+hostname: LAPTOP-NGODR02R
+
+2021-02-07 16:07:11,728 ERROR 16504 [-/127.0.0.1/-/36ms GET /selectArtist?aid=12174057] nodejs.TypeError: ctx.service.common.artist.selectArtsist is not a function
+    at ArtistController.selectArtist (D:\code_file\毕设\services\app\controller\common\artist.js:12:56)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\code_file\毕设\services\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+
+pid: 16504
+hostname: LAPTOP-NGODR02R
+
+2021-02-07 20:12:59,935 ERROR 5544 [-/127.0.0.1/-/4ms DELETE /admin/deleteArtist?singer=1111] nodejs.TypeError: ctx.service.admin.deleteArtist is not a function
+    at ArtistController.deleteArtist (D:\code_file\毕设\services\app\controller\admin\artist.js:7:42)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\code_file\毕设\services\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+
+pid: 5544
+hostname: LAPTOP-NGODR02R
+

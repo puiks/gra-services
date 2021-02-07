@@ -8,4 +8,6 @@ module.exports = app => {
     router.delete('/admin/deleteComment', controller.admin.comment.deleteComment);
     router.post('/admin/addBoard', controller.admin.board.addBoard);
     router.delete('/admin/deleteBoard', controller.admin.board.deleteBoard);
+    router.delete('/admin/deleteArtist', controller.admin.artist.deleteArtist);
+    router.put('/admin/modifyArtist', controller.admin.artist.modifyArtist);
 }
