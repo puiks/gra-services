@@ -217,8 +217,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/getSongList",
-    "regexp": "/^\\/getSongList(?:\\/(?=$))?$/",
+    "path": "/getSongListById",
+    "regexp": "/^\\/getSongListById(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

@@ -22,10 +22,10 @@ class SongListController extends Controller {
             };
         }
     }
-    async getSongList() {
+    async getSongListById() {
         const ctx = this.ctx;
         const { slid } = ctx.query;
-        const result = await ctx.service.common.songList.getSongList(slid);
+        const result = await ctx.service.common.songList.getSongListById(slid);
         ctx.body = {
             status: 200,
             songList: result

@@ -7,7 +7,7 @@ module.exports = app => {
     router.post('/checkCode', controller.common.user.checkCode);
     router.get('/getAllSongLists', controller.common.songList.getAllSongLists);
     router.delete('/deleteSongList', controller.common.songList.deleteSongList);
-    router.get('/getSongList', controller.common.songList.getSongList);
+    router.get('/getSongListById', controller.common.songList.getSongListById);
     router.put('/updateSongList', controller.common.songList.updateSongList);
     router.post('/addSongList', controller.common.songList.addSongList);
     router.get('/getSongsComments', controller.common.comment.getSongsComments);

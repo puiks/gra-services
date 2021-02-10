@@ -25,7 +25,7 @@ class SongListService extends Service {
         }
         return { success: true };
     }
-    async getSongList(slid) {
+    async getSongListById(slid) {
         const conn = await this.app.mysql.beginTransaction();
         let result1, result2;
         try {

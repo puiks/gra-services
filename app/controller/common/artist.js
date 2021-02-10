@@ -5,6 +5,7 @@ class ArtistController extends Controller {
         const ctx = this.ctx;
         const { offset } = ctx.query;
         const result = await ctx.service.common.artist.getAllArtists(offset);
+        ctx.body = result;
     }
     async selectArtistByName() {
         const ctx = this.ctx;
