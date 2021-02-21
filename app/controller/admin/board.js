@@ -11,6 +11,22 @@ class BoardController extends Controller {
         const { bid } = ctx.query;
         const result = await ctx.service.admin.board.deleteBoard(bid);
     }
+    async editBoard() {
+        const ctx = this.ctx;
+        const {board} = ctx.request.body;
+        const result = await ctx.service.admin.board.editBoard(board);
+        if (result.affectedRows === 1) {
+            ctx.body = {
+                status: 204,
+                desc:'更新成功'
+            }
+        } else {
+            ctx.body = {
+                status: 500,
+                desc:'更新失败'
+            }
+        }
+    }
 }
 
 module.exports = BoardController;

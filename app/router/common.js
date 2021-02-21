@@ -14,7 +14,8 @@ module.exports = app => {
     router.get('/getSubComments', controller.common.comment.getSubComments);
     router.post('/addComment', controller.common.comment.addComment);
     router.get('/getAllBoards', controller.common.board.getAllBoards);
-    router.get('/selectBoard', controller.common.board.selectBoard);
+    router.get('/selectBoardByTitle', controller.common.board.selectBoardByTitle);
+    router.get('/selectBoardById', controller.common.board.selectBoardById);
     router.get('/getAllArtists', controller.common.artist.getAllArtists);
     router.get('/selectArtistByName', controller.common.artist.selectArtistByName);
     router.get('/selectArtistByType', controller.common.artist.selectArtistByType);

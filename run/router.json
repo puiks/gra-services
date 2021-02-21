@@ -113,6 +113,18 @@
   {
     "name": null,
     "methods": [
+      "PUT"
+    ],
+    "paramNames": [],
+    "path": "/admin/editBoard",
+    "regexp": "/^\\/admin\\/editBoard(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "HEAD",
       "GET"
     ],
@@ -305,8 +317,21 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/selectBoard",
-    "regexp": "/^\\/selectBoard(?:\\/(?=$))?$/",
+    "path": "/selectBoardByTitle",
+    "regexp": "/^\\/selectBoardByTitle(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/selectBoardById",
+    "regexp": "/^\\/selectBoardById(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

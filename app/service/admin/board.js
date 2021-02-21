@@ -22,6 +22,10 @@ class BoardService extends Service {
         }
         console.log(result);
     }
+    async editBoard(board) {
+        const result = await this.app.mysql.update('board', board);
+        return result;
+    }
 }
 
 module.exports = BoardService;

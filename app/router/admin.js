@@ -10,4 +10,5 @@ module.exports = app => {
     router.delete('/admin/deleteBoard', controller.admin.board.deleteBoard);
     router.delete('/admin/deleteArtist', controller.admin.artist.deleteArtist);
     router.put('/admin/modifyArtist', controller.admin.artist.modifyArtist);
+    router.put('/admin/editBoard', controller.admin.board.editBoard);
 }

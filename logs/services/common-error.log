@@ -408,3 +408,33 @@ headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-
 pid: 18280
 hostname: LAPTOP-NGODR02R
 
+2021-02-21 16:34:19,524 ERROR 11976 [-/127.0.0.1/-/62ms GET /selectBoardById?id=1] nodejs.TypeError: ctx.service.common.board.selectBoard is not a function
+    at BoardController.selectBoardById (D:\code_file\毕设\services\app\controller\common\board.js:20:55)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\code_file\毕设\services\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 11976
+hostname: LAPTOP-NGODR02R
+
+2021-02-21 21:44:04,251 ERROR 18996 [-/127.0.0.1/-/377ms PUT /admin/editBoard] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (D:\code_file\毕设\services\node_modules\ali-rds\lib\operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (D:\code_file\毕设\services\node_modules\co\index.js:65:19)
+    at D:\code_file\毕设\services\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (D:\code_file\毕设\services\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (D:\code_file\毕设\services\node_modules\co\index.js:30:15)
+    at BoardService.editBoard (D:\code_file\毕设\services\app\service\admin\board.js:26:45)
+    at BoardController.editBoard (D:\code_file\毕设\services\app\controller\admin\board.js:17:54)
+    at Object.callFn (D:\code_file\毕设\services\node_modules\egg-core\lib\utils\index.js:44:21)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 18996
+hostname: LAPTOP-NGODR02R
+
