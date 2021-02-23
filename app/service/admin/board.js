@@ -4,9 +4,10 @@ class BoardService extends Service {
     async addBoard(boardInfo) {
         const result = await this.app.mysql.insert('board', {
             ...boardInfo,
-            releaseTime: this.app.mysql.literals.now
+            releaseTime: this.app.mysql.literals.now,
+            username: '111'
         });
-        console.log(result);
+        return result;
     }
     async deleteBoard(bid) {
         const conn = await this.app.mysql.beginTransaction();
