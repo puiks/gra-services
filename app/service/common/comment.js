@@ -1,13 +1,13 @@
 const Service = require('egg').Service;
 
 class CommentService extends Service {
-    async getAllComments() {
-        const result = await this.app.mysql.select('comment', {
-            orders: [['commentTime', 'desc']]
-        });
-        console.log(result);
-        // return result;
-    }
+    // async getAllComments() {
+    //     const result = await this.app.mysql.select('comment', {
+    //         orders: [['commentTime', 'desc']]
+    //     });
+    //     console.log(result);
+    //     // return result;
+    // }
     async getSongsComments(sid) {
         const result = await this.app.mysql.select('comment', {
             where: { belongTo: sid },

@@ -53,7 +53,7 @@
   {
     "name": null,
     "methods": [
-      "DELETE"
+      "PUT"
     ],
     "paramNames": [],
     "path": "/admin/deleteComment",

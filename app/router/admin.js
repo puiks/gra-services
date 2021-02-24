@@ -5,7 +5,7 @@ module.exports = app => {
     router.get('/admin/getUserLists', controller.admin.user.getUserLists);
     router.put('/admin/updateUserState', controller.admin.user.updateUserState);
     router.get('/admin/getAllComments', controller.admin.comment.getAllComments);
-    router.delete('/admin/deleteComment', controller.admin.comment.deleteComment);
+    router.put('/admin/deleteComment', controller.admin.comment.deleteComment);
     router.post('/admin/addBoard', controller.admin.board.addBoard);
     router.delete('/admin/deleteBoard', controller.admin.board.deleteBoard);
     router.delete('/admin/deleteArtist', controller.admin.artist.deleteArtist);
