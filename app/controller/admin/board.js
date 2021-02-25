@@ -21,6 +21,17 @@ class BoardController extends Controller {
         const ctx = this.ctx;
         const { bid } = ctx.query;
         const result = await ctx.service.admin.board.deleteBoard(bid);
+        if (result.affectedRows === 1) {
+            ctx.body = {
+                status: 204,
+                desc:'删除成功'
+            }
+        } else {
+            ctx.body = {
+                status: 500,
+                desc:'删除失败'
+            }
+        }
     }
     async editBoard() {
         const ctx = this.ctx;

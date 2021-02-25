@@ -10,18 +10,11 @@ class BoardService extends Service {
         return result;
     }
     async deleteBoard(bid) {
-        const conn = await this.app.mysql.beginTransaction();
-        let result;
-        try {
-            result = await conn.delete('board', {
-                id: bid
-            });
-            await conn.query('ALTER TABLE board AUTO_INCREMENT = 1;');
-            await conn.commit();
-        } catch (err) {
-
-        }
-        console.log(result);
+        const result = await this.app.mysql.update('board', {
+            id: bid,
+            state: 1
+        });
+        return result;
     }
     async editBoard(board) {
         const result = await this.app.mysql.update('board', board);

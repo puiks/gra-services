@@ -2,9 +2,7 @@ const Service = require('egg').Service;
 
 class CommentService extends Service {
     async getAllComments() {
-        const result = await this.app.mysql.select('comment', {
-            where:{state:0}
-        });
+        const result = await this.app.mysql.select('comment');
         return result;
     }
     async deleteComment(commentInfo) {
