@@ -42,7 +42,8 @@ class UserController extends Controller {
             ctx.body = {
                 status: '200',
                 desc: '成功登录',
-                type: result[0].type
+                type: result[0].type,
+                id:result[0].id
             };
         } else {
             ctx.body = {
@@ -50,7 +51,6 @@ class UserController extends Controller {
                 desc: '用户名/邮箱/手机号或密码错误'
             };
         }
-        // console.log(ctx.session);
     };
     async resetPassword() {
         const ctx = this.ctx;

@@ -77,10 +77,11 @@
     "allowMethods": "D:\\code_file\\毕设\\services\\config\\config.default.js"
   },
   "session": {
-    "maxAge": "D:\\code_file\\毕设\\services\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "D:\\code_file\\毕设\\services\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "D:\\code_file\\毕设\\services\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "D:\\code_file\\毕设\\services\\node_modules\\egg-session\\config\\config.default.js"
+    "key": "D:\\code_file\\毕设\\services\\config\\config.default.js",
+    "maxAge": "D:\\code_file\\毕设\\services\\config\\config.default.js",
+    "httpOnly": "D:\\code_file\\毕设\\services\\config\\config.default.js",
+    "encrypt": "D:\\code_file\\毕设\\services\\config\\config.default.js",
+    "renew": "D:\\code_file\\毕设\\services\\config\\config.default.js"
   },
   "helper": {
     "shtml": "D:\\code_file\\毕设\\services\\node_modules\\egg-security\\config\\config.default.js"

@@ -9,6 +9,7 @@
     "path": "/admin/index",
     "regexp": "/^\\/admin\\/index(?:\\/(?=$))?$/",
     "stack": [
+      "auth",
       "wrappedController"
     ]
   },
@@ -22,6 +23,7 @@
     "path": "/admin/getUserLists",
     "regexp": "/^\\/admin\\/getUserLists(?:\\/(?=$))?$/",
     "stack": [
+      "auth",
       "wrappedController"
     ]
   },
@@ -34,6 +36,7 @@
     "path": "/admin/updateUserState",
     "regexp": "/^\\/admin\\/updateUserState(?:\\/(?=$))?$/",
     "stack": [
+      "auth",
       "wrappedController"
     ]
   },
@@ -47,6 +50,7 @@
     "path": "/admin/getAllComments",
     "regexp": "/^\\/admin\\/getAllComments(?:\\/(?=$))?$/",
     "stack": [
+      "auth",
       "wrappedController"
     ]
   },
@@ -59,6 +63,7 @@
     "path": "/admin/deleteComment",
     "regexp": "/^\\/admin\\/deleteComment(?:\\/(?=$))?$/",
     "stack": [
+      "auth",
       "wrappedController"
     ]
   },
@@ -71,6 +76,7 @@
     "path": "/admin/addBoard",
     "regexp": "/^\\/admin\\/addBoard(?:\\/(?=$))?$/",
     "stack": [
+      "auth",
       "wrappedController"
     ]
   },
@@ -83,6 +89,7 @@
     "path": "/admin/deleteBoard",
     "regexp": "/^\\/admin\\/deleteBoard(?:\\/(?=$))?$/",
     "stack": [
+      "auth",
       "wrappedController"
     ]
   },
@@ -95,6 +102,7 @@
     "path": "/admin/deleteArtist",
     "regexp": "/^\\/admin\\/deleteArtist(?:\\/(?=$))?$/",
     "stack": [
+      "auth",
       "wrappedController"
     ]
   },
@@ -107,6 +115,7 @@
     "path": "/admin/modifyArtist",
     "regexp": "/^\\/admin\\/modifyArtist(?:\\/(?=$))?$/",
     "stack": [
+      "auth",
       "wrappedController"
     ]
   },
@@ -119,6 +128,7 @@
     "path": "/admin/editBoard",
     "regexp": "/^\\/admin\\/editBoard(?:\\/(?=$))?$/",
     "stack": [
+      "auth",
       "wrappedController"
     ]
   },

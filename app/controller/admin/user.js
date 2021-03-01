@@ -4,7 +4,6 @@ class AdminController extends Controller {
     async index() {
         const ctx = this.ctx;
         const user = await ctx.service.admin.user.find();
-        console.log(user);
         this.ctx.body = user;
     }
     async getUserLists() {
