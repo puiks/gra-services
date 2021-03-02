@@ -197,10 +197,15 @@
     },
     "homepage": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
+      "axios": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js",
+      "crypto": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js",
       "egg": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js",
       "egg-cors": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js",
       "egg-mysql": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js",
-      "moment": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js"
+      "moment": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js",
+      "pac-proxy-agent": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js",
+      "tunnel": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
       "egg-bin": "D:\\code_file\\毕设\\services\\node_modules\\egg\\config\\config.default.js"

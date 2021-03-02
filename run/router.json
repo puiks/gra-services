@@ -9,7 +9,6 @@
     "path": "/admin/index",
     "regexp": "/^\\/admin\\/index(?:\\/(?=$))?$/",
     "stack": [
-      "auth",
       "wrappedController"
     ]
   },
@@ -50,7 +49,6 @@
     "path": "/admin/getAllComments",
     "regexp": "/^\\/admin\\/getAllComments(?:\\/(?=$))?$/",
     "stack": [
-      "auth",
       "wrappedController"
     ]
   },
@@ -381,6 +379,19 @@
     "paramNames": [],
     "path": "/selectArtistByType",
     "regexp": "/^\\/selectArtistByType(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/search/default",
+    "regexp": "/^\\/search\\/default(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

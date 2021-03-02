@@ -18,10 +18,15 @@
   },
   "homepage": "https://github.com/puiks/gra-services#readme",
   "dependencies": {
+    "axios": "^0.21.1",
+    "crypto": "^1.0.1",
     "egg": "^2.29.1",
     "egg-cors": "^2.2.3",
     "egg-mysql": "^3.0.0",
-    "moment": "^2.29.1"
+    "moment": "^2.29.1",
+    "pac-proxy-agent": "^4.1.0",
+    "tunnel": "0.0.6",
+    "url": "^0.11.0"
   },
   "devDependencies": {
     "egg-bin": "^4.15.0"

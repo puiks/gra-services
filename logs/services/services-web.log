@@ -473,3 +473,333 @@ name: "ER_BAD_FIELD_ERRORError"
 pid: 11136
 hostname: LAPTOP-NGODR02R
 
+2021-03-01 22:29:46,324 ERROR 1600 [-/127.0.0.1/-/60ms OPTIONS /admin/getAllComments] nodejs.TypeError: ctx.response.status is not a function
+    at midHttp (D:\code_file\毕设\services\app\middleware\http.js:7:26)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code_file\毕设\services\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 1600
+hostname: LAPTOP-NGODR02R
+
+2021-03-01 22:30:21,094 ERROR 15084 [-/127.0.0.1/-/28ms OPTIONS /admin/getAllComments] nodejs.TypeError: ctx.response.end is not a function
+    at midHttp (D:\code_file\毕设\services\app\middleware\http.js:8:26)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code_file\毕设\services\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 15084
+hostname: LAPTOP-NGODR02R
+
+2021-03-01 23:19:29,027 ERROR 13688 [-/127.0.0.1/-/6ms GET /getAllArtists?offset=0] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '\module'
+    at Object.readdirSync (fs.js:1021:3)
+    at FileReader (D:\code_file\毕设\services\app\middleware\fileread.js:8:8)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at cookieParser (D:\code_file\毕设\services\app\middleware\cookieParser.js:12:15)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code_file\毕设\services\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\code_file\毕设\services\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\code_file\毕设\services\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+errno: -4058
+syscall: "scandir"
+code: "ENOENT"
+path: "\\module"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ENOENTError"
+pid: 13688
+hostname: LAPTOP-NGODR02R
+
+2021-03-01 23:20:26,807 ERROR 21852 [-/127.0.0.1/-/6ms GET /getAllSongLists] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '../../module'
+    at Object.readdirSync (fs.js:1021:3)
+    at FileReader (D:\code_file\毕设\services\app\middleware\fileread.js:8:8)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at cookieParser (D:\code_file\毕设\services\app\middleware\cookieParser.js:12:15)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code_file\毕设\services\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\code_file\毕设\services\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\code_file\毕设\services\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+errno: -4058
+syscall: "scandir"
+code: "ENOENT"
+path: "../../module"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ENOENTError"
+pid: 21852
+hostname: LAPTOP-NGODR02R
+
+2021-03-01 23:20:29,663 ERROR 21852 [-/127.0.0.1/-/1ms GET /getAllBoards] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '../../module'
+    at Object.readdirSync (fs.js:1021:3)
+    at FileReader (D:\code_file\毕设\services\app\middleware\fileread.js:8:8)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at cookieParser (D:\code_file\毕设\services\app\middleware\cookieParser.js:12:15)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code_file\毕设\services\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\code_file\毕设\services\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\code_file\毕设\services\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+errno: -4058
+syscall: "scandir"
+code: "ENOENT"
+path: "../../module"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ENOENTError"
+pid: 21852
+hostname: LAPTOP-NGODR02R
+
+2021-03-01 23:21:58,335 ERROR 21852 [-/127.0.0.1/-/1ms GET /getAllArtists?offset=0] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '../../module'
+    at Object.readdirSync (fs.js:1021:3)
+    at FileReader (D:\code_file\毕设\services\app\middleware\fileread.js:8:8)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at cookieParser (D:\code_file\毕设\services\app\middleware\cookieParser.js:12:15)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code_file\毕设\services\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\code_file\毕设\services\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\code_file\毕设\services\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+errno: -4058
+syscall: "scandir"
+code: "ENOENT"
+path: "../../module"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ENOENTError"
+pid: 21852
+hostname: LAPTOP-NGODR02R
+
+2021-03-01 23:22:03,520 ERROR 8648 [-/127.0.0.1/-/6ms GET /getAllBoards] nodejs.ENOENTError: ENOENT: no such file or directory, scandir 'D:\module'
+    at Object.readdirSync (fs.js:1021:3)
+    at FileReader (D:\code_file\毕设\services\app\middleware\fileread.js:8:8)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at cookieParser (D:\code_file\毕设\services\app\middleware\cookieParser.js:12:15)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code_file\毕设\services\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\code_file\毕设\services\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\code_file\毕设\services\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+errno: -4058
+syscall: "scandir"
+code: "ENOENT"
+path: "D:\\module"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ENOENTError"
+pid: 8648
+hostname: LAPTOP-NGODR02R
+
+2021-03-01 23:22:53,454 ERROR 10796 [-/127.0.0.1/-/6ms GET /getAllArtists?offset=0] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '..\..\module'
+    at Object.readdirSync (fs.js:1021:3)
+    at FileReader (D:\code_file\毕设\services\app\middleware\fileread.js:8:8)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at cookieParser (D:\code_file\毕设\services\app\middleware\cookieParser.js:12:15)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code_file\毕设\services\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\code_file\毕设\services\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\code_file\毕设\services\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+errno: -4058
+syscall: "scandir"
+code: "ENOENT"
+path: "..\\..\\module"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ENOENTError"
+pid: 10796
+hostname: LAPTOP-NGODR02R
+
+2021-03-01 23:28:01,685 ERROR 17656 [-/127.0.0.1/-/12ms GET /getAllArtists?offset=0] nodejs.ReferenceError: request is not defined
+    at D:\code_file\毕设\services\app\middleware\fileread.js:25:25
+    at Array.forEach (<anonymous>)
+    at FileReader (D:\code_file\毕设\services\app\middleware\fileread.js:10:8)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at cookieParser (D:\code_file\毕设\services\app\middleware\cookieParser.js:12:15)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\code_file\毕设\services\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\code_file\毕设\services\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 17656
+hostname: LAPTOP-NGODR02R
+
+2021-03-02 22:09:10,399 ERROR 20472 [-/127.0.0.1/-/41ms GET /admin/getUserLists] nodejs.TypeError: header.match is not a function
+    at Cookies.get (D:\code_file\毕设\services\node_modules\egg-cookies\lib\cookies.js:60:26)
+    at ContextSession.initFromCookie (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:112:32)
+    at ContextSession.get (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:38:39)
+    at Object.get (D:\code_file\毕设\services\node_modules\koa-session\index.js:138:38)
+    at auth (D:\code_file\毕设\services\app\middleware\auth.js:3:17)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 20472
+hostname: LAPTOP-NGODR02R
+
+2021-03-02 22:11:28,205 ERROR 1664 [-/127.0.0.1/-/6ms GET /admin/getUserLists] nodejs.TypeError: header.match is not a function
+    at Cookies.get (D:\code_file\毕设\services\node_modules\egg-cookies\lib\cookies.js:60:26)
+    at ContextSession.initFromCookie (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:112:32)
+    at ContextSession.get (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:38:39)
+    at Object.get (D:\code_file\毕设\services\node_modules\koa-session\index.js:138:38)
+    at auth (D:\code_file\毕设\services\app\middleware\auth.js:3:17)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 1664
+hostname: LAPTOP-NGODR02R
+
+2021-03-02 22:13:41,667 ERROR 1664 [-/127.0.0.1/-/3ms GET /admin/getUserLists] nodejs.TypeError: header.match is not a function
+    at Cookies.get (D:\code_file\毕设\services\node_modules\egg-cookies\lib\cookies.js:60:26)
+    at ContextSession.initFromCookie (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:112:32)
+    at ContextSession.get (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:38:39)
+    at Object.get (D:\code_file\毕设\services\node_modules\koa-session\index.js:138:38)
+    at auth (D:\code_file\毕设\services\app\middleware\auth.js:3:17)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 1664
+hostname: LAPTOP-NGODR02R
+
+2021-03-02 22:14:07,413 ERROR 21944 [-/127.0.0.1/-/7ms GET /admin/getUserLists] nodejs.TypeError: header.match is not a function
+    at Cookies.get (D:\code_file\毕设\services\node_modules\egg-cookies\lib\cookies.js:60:26)
+    at ContextSession.initFromCookie (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:112:32)
+    at ContextSession.get (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:38:39)
+    at Object.get (D:\code_file\毕设\services\node_modules\koa-session\index.js:138:38)
+    at auth (D:\code_file\毕设\services\app\middleware\auth.js:3:17)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 21944
+hostname: LAPTOP-NGODR02R
+
+2021-03-02 22:14:32,863 ERROR 19316 [-/127.0.0.1/-/7ms GET /admin/getUserLists] nodejs.TypeError: header.match is not a function
+    at Cookies.get (D:\code_file\毕设\services\node_modules\egg-cookies\lib\cookies.js:60:26)
+    at ContextSession.initFromCookie (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:112:32)
+    at ContextSession.get (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:38:39)
+    at Object.get (D:\code_file\毕设\services\node_modules\koa-session\index.js:138:38)
+    at auth (D:\code_file\毕设\services\app\middleware\auth.js:3:17)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 19316
+hostname: LAPTOP-NGODR02R
+
+2021-03-02 22:16:23,593 ERROR 19316 [-/127.0.0.1/-/3ms GET /admin/getUserLists] nodejs.TypeError: header.match is not a function
+    at Cookies.get (D:\code_file\毕设\services\node_modules\egg-cookies\lib\cookies.js:60:26)
+    at ContextSession.initFromCookie (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:112:32)
+    at ContextSession.get (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:38:39)
+    at Object.get (D:\code_file\毕设\services\node_modules\koa-session\index.js:138:38)
+    at auth (D:\code_file\毕设\services\app\middleware\auth.js:3:17)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 19316
+hostname: LAPTOP-NGODR02R
+
+2021-03-02 22:17:36,783 ERROR 19724 [-/127.0.0.1/-/23ms GET /admin/getUserLists] nodejs.TypeError: header.match is not a function
+    at Cookies.get (D:\code_file\毕设\services\node_modules\egg-cookies\lib\cookies.js:60:26)
+    at ContextSession.initFromCookie (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:112:32)
+    at ContextSession.get (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:38:39)
+    at Object.get (D:\code_file\毕设\services\node_modules\koa-session\index.js:138:38)
+    at auth (D:\code_file\毕设\services\app\middleware\auth.js:3:17)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 19724
+hostname: LAPTOP-NGODR02R
+
+2021-03-02 22:19:49,451 ERROR 9976 [-/127.0.0.1/-/5ms GET /admin/getUserLists] nodejs.TypeError: header.match is not a function
+    at Cookies.get (D:\code_file\毕设\services\node_modules\egg-cookies\lib\cookies.js:60:26)
+    at ContextSession.initFromCookie (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:112:32)
+    at ContextSession.get (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:38:39)
+    at Object.get (D:\code_file\毕设\services\node_modules\koa-session\index.js:138:38)
+    at auth (D:\code_file\毕设\services\app\middleware\auth.js:3:17)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 9976
+hostname: LAPTOP-NGODR02R
+
+2021-03-02 22:20:53,268 ERROR 21924 [-/127.0.0.1/-/81ms GET /admin/getUserLists] nodejs.TypeError: header.match is not a function
+    at Cookies.get (D:\code_file\毕设\services\node_modules\egg-cookies\lib\cookies.js:60:26)
+    at ContextSession.initFromCookie (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:112:32)
+    at ContextSession.get (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:38:39)
+    at Object.get (D:\code_file\毕设\services\node_modules\koa-session\index.js:138:38)
+    at auth (D:\code_file\毕设\services\app\middleware\auth.js:3:17)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 21924
+hostname: LAPTOP-NGODR02R
+
+2021-03-02 22:29:21,911 ERROR 7368 [-/127.0.0.1/-/5ms GET /admin/getUserLists] nodejs.TypeError: header.match is not a function
+    at Cookies.get (D:\code_file\毕设\services\node_modules\egg-cookies\lib\cookies.js:60:26)
+    at ContextSession.initFromCookie (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:112:32)
+    at ContextSession.get (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:38:39)
+    at Object.get (D:\code_file\毕设\services\node_modules\koa-session\index.js:138:38)
+    at auth (D:\code_file\毕设\services\app\middleware\auth.js:3:17)
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at next (D:\code_file\毕设\services\node_modules\koa-compose\index.js:45:18)
+    at D:\code_file\毕设\services\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code_file\毕设\services\node_modules\koa-compose\index.js:44:32)
+    at D:\code_file\毕设\services\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 7368
+hostname: LAPTOP-NGODR02R
+
+2021-03-02 22:29:30,833 ERROR 7368 [-/127.0.0.1/-/18ms POST /login] nodejs.TypeError: header.match is not a function
+    at Cookies.get (D:\code_file\毕设\services\node_modules\egg-cookies\lib\cookies.js:60:26)
+    at ContextSession.initFromCookie (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:112:32)
+    at ContextSession.get (D:\code_file\毕设\services\node_modules\koa-session\lib\context.js:38:39)
+    at Object.get (D:\code_file\毕设\services\node_modules\koa-session\index.js:138:38)
+    at UserController.login (D:\code_file\毕设\services\app\controller\common\user.js:40:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async FileReader (D:\code_file\毕设\services\app\middleware\fileread.js:43:5)
+    at async cookieParser (D:\code_file\毕设\services\app\middleware\cookieParser.js:12:9)
+    at async D:\code_file\毕设\services\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code_file\毕设\services\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 7368
+hostname: LAPTOP-NGODR02R
+

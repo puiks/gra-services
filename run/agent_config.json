@@ -1,10 +1,11 @@
 {
   "config": {
     "session": {
-      "maxAge": 86400000,
-      "key": "EGG_SESS",
+      "maxAge": 1800000,
+      "key": "SESSION_ID",
       "httpOnly": true,
-      "encrypt": true
+      "encrypt": true,
+      "renew": true
     },
     "security": {
       "domainWhiteList": [
@@ -168,7 +169,7 @@
       }
     },
     "cors": {
-      "origin": "http://localhost:8080",
+      "origin": "http://127.0.0.1:8080",
       "credentials": true,
       "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS"
     },
@@ -202,10 +203,15 @@
       },
       "homepage": "https://github.com/puiks/gra-services#readme",
       "dependencies": {
+        "axios": "^0.21.1",
+        "crypto": "^1.0.1",
         "egg": "^2.29.1",
         "egg-cors": "^2.2.3",
         "egg-mysql": "^3.0.0",
-        "moment": "^2.29.1"
+        "moment": "^2.29.1",
+        "pac-proxy-agent": "^4.1.0",
+        "tunnel": "0.0.6",
+        "url": "^0.11.0"
       },
       "devDependencies": {
         "egg-bin": "^4.15.0"
@@ -308,7 +314,11 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "middleware": [],
+    "middleware": [
+      "http",
+      "cookieParser",
+      "cache"
+    ],
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware"
